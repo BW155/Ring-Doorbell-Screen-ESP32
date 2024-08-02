@@ -2,6 +2,8 @@
 
 This project is a POC of showing a live feed of a ring doorbell to a ESP32 with TFT display.
 
+![image](./pics/image.png)
+
 ## Parts
 
 To make this all work a couple of parts are needed:
