@@ -43,4 +43,26 @@ For detailed setup and configuration instructions, refer to the [ESP Display Doc
 
 ## Getting Started
 
-Follow the instructions in each part's folder to set up and run the project. Ensure you have all necessary hardware components and dependencies installed.
+Follow these steps to set up and run the project:
+
+1. **Run the RTSP Server**:
+
+   - Ensure the RTSP server is up and running. This will handle the live feed from the Ring doorbell.
+
+2. **Run the RTSP-Proxy**:
+
+   - Set up and run the `rtsp-proxy` to interface with the Ring doorbell and stream to the RTSP server.
+
+3. **Run the ESP-Proxy**:
+
+   - Set up and run the `esp-proxy` to convert the RTSP stream into a format suitable for the ESP32.
+
+4. **Run the ESP Display**:
+   - Configure and run the ESP32 to connect to the ESP-proxy and display the live feed.
+
+For specific instructions on setting up each part, refer to the respective folders and documentation:
+
+- [RTSP Proxy](./rtsp-proxy/README.md)
+- [RTSP Server](./rtsp-server/README.md)
+- [ESP Proxy](./esp-proxy/README.md)
+- [ESP Display](./esp-display.md)
