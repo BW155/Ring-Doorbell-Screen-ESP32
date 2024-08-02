@@ -38,3 +38,9 @@ To make the ESP display as responsive as possible, I created a proxy server that
 **Folder**: [esp-display](./esp-display)
 
 The display gathers individual frames from the ESP-proxy and renders them on the screen. Due to the limited heap space, a compressed JPEG is used.
+
+For detailed setup and configuration instructions, refer to the [ESP Display Documentation](./esp-display.md).
+
+## Getting Started
+
+Follow the instructions in each part's folder to set up and run the project. Ensure you have all necessary hardware components and dependencies installed.
